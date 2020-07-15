@@ -31,7 +31,7 @@ function App() {
           <Route exact path="/history" component={Auth(HistoryPage, true)} />
         </Switch>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </Suspense>
   );
 }
